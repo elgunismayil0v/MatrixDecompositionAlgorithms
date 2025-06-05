@@ -1,0 +1,19 @@
+cmake_minimum_required(version 3.10)
+project(Matrix_Decomposition_Algorithms)
+
+# Set C++ Standart
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Include Eigen, Boost, and general directories
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include/eigen-3.4.0
+    ${CMAKE_SOURCE_DIR}/include/boost_1_87_0
+    ${CMAKE_SOURCE_DIR}/include/
+)
+
+# Add source files for main executable
+set(SOURCE_FILES
+    main.cpp,
+    src/)
