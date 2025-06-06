@@ -1,19 +1,31 @@
-cmake_minimum_required(version 3.10)
+cmake_minimum_required(VERSION 3.10)
 project(Matrix_Decomposition_Algorithms)
 
-# Set C++ Standart
-
+# Set C++ Standard
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Include Eigen, Boost, and general directories
+# Include Eigen, Boost, and general include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/include/eigen-3.4.0
     ${CMAKE_SOURCE_DIR}/include/boost_1_87_0
-    ${CMAKE_SOURCE_DIR}/include/
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/src/Decomposition
+    ${CMAKE_SOURCE_DIR}/src/MemoryManager
+    ${CMAKE_SOURCE_DIR}/src/LU
+    ${CMAKE_SOURCE_DIR}/src/FlatMatrix
 )
 
-# Add source files for main executable
-set(SOURCE_FILES
-    main.cpp,
-    src/)
+# Collect all source files in src/ directory (no trailing comma)
+file(GLOB_RECURSE SOURCE_FILES
+    ${CMAKE_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_SOURCE_DIR}/src/*.cxx
+    ${CMAKE_SOURCE_DIR}/src/*.cc
+    ${CMAKE_SOURCE_DIR}/src/*.h
+)
+
+# Add main.cpp explicitly if it is outside src/
+list(APPEND SOURCE_FILES ${CMAKE_SOURCE_DIR}/main.cpp)
+
+# Add executable target
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
