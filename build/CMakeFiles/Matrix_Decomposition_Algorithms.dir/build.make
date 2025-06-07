@@ -100,10 +100,24 @@ CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elgun/desktop/MatrixDecompositionAlgorithms/src/MemoryManager/MemoryManager.cpp -o CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.s
 
+CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o: CMakeFiles/Matrix_Decomposition_Algorithms.dir/flags.make
+CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o: /Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver/Solver.cpp
+CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o: CMakeFiles/Matrix_Decomposition_Algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elgun/desktop/MatrixDecompositionAlgorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o -MF CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o.d -o CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o -c /Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver/Solver.cpp
+
+CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver/Solver.cpp > CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.i
+
+CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver/Solver.cpp -o CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.s
+
 CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o: CMakeFiles/Matrix_Decomposition_Algorithms.dir/flags.make
 CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o: /Users/elgun/desktop/MatrixDecompositionAlgorithms/main.cpp
 CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o: CMakeFiles/Matrix_Decomposition_Algorithms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elgun/desktop/MatrixDecompositionAlgorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elgun/desktop/MatrixDecompositionAlgorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o -MF CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o.d -o CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o -c /Users/elgun/desktop/MatrixDecompositionAlgorithms/main.cpp
 
 CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.i: cmake_force
@@ -118,6 +132,7 @@ CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.s: cmake_force
 Matrix_Decomposition_Algorithms_OBJECTS = \
 "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/LU/LU.cpp.o" \
 "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o" \
+"CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o" \
 "CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o"
 
 # External object files for target Matrix_Decomposition_Algorithms
@@ -125,10 +140,11 @@ Matrix_Decomposition_Algorithms_EXTERNAL_OBJECTS =
 
 Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/LU/LU.cpp.o
 Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o
+Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o
 Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o
 Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/build.make
 Matrix_Decomposition_Algorithms: CMakeFiles/Matrix_Decomposition_Algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/elgun/desktop/MatrixDecompositionAlgorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Matrix_Decomposition_Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/elgun/desktop/MatrixDecompositionAlgorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Matrix_Decomposition_Algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Matrix_Decomposition_Algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include/eigen-3.4.0 -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include/boost_1_87_0 -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Decomposition -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/MemoryManager -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/LU -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/FlatMatrix
+CXX_INCLUDES = -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include/eigen-3.4.0 -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include/boost_1_87_0 -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/include -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Decomposition -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/MemoryManager -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/LU -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/FlatMatrix -I/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
 

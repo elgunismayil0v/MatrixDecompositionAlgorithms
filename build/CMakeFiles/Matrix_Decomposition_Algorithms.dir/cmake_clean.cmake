@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/LU/LU.cpp.o.d"
   "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o"
   "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o.d"
+  "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o"
+  "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o.d"
   "Matrix_Decomposition_Algorithms"
   "Matrix_Decomposition_Algorithms.pdb"
 )

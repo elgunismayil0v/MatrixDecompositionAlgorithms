@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/elgun/desktop/MatrixDecompositionAlgorithms/main.cpp" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o" "gcc" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/main.cpp.o.d"
   "/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/LU/LU.cpp" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/LU/LU.cpp.o" "gcc" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/LU/LU.cpp.o.d"
   "/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/MemoryManager/MemoryManager.cpp" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o" "gcc" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.o.d"
+  "/Users/elgun/desktop/MatrixDecompositionAlgorithms/src/Solver/Solver.cpp" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o" "gcc" "CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

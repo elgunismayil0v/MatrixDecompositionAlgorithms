@@ -14,6 +14,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/src/MemoryManager
     ${CMAKE_SOURCE_DIR}/src/LU
     ${CMAKE_SOURCE_DIR}/src/FlatMatrix
+    ${CMAKE_SOURCE_DIR}/src/Solver
 )
 
 # Collect all source files in src/ directory (no trailing comma)

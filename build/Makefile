@@ -201,6 +201,30 @@ src/MemoryManager/MemoryManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix_Decomposition_Algorithms.dir/build.make CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/MemoryManager/MemoryManager.cpp.s
 .PHONY : src/MemoryManager/MemoryManager.cpp.s
 
+src/Solver/Solver.o: src/Solver/Solver.cpp.o
+.PHONY : src/Solver/Solver.o
+
+# target to build an object file
+src/Solver/Solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix_Decomposition_Algorithms.dir/build.make CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.o
+.PHONY : src/Solver/Solver.cpp.o
+
+src/Solver/Solver.i: src/Solver/Solver.cpp.i
+.PHONY : src/Solver/Solver.i
+
+# target to preprocess a source file
+src/Solver/Solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix_Decomposition_Algorithms.dir/build.make CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.i
+.PHONY : src/Solver/Solver.cpp.i
+
+src/Solver/Solver.s: src/Solver/Solver.cpp.s
+.PHONY : src/Solver/Solver.s
+
+# target to generate assembly for a file
+src/Solver/Solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix_Decomposition_Algorithms.dir/build.make CMakeFiles/Matrix_Decomposition_Algorithms.dir/src/Solver/Solver.cpp.s
+.PHONY : src/Solver/Solver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/MemoryManager/MemoryManager.o"
 	@echo "... src/MemoryManager/MemoryManager.i"
 	@echo "... src/MemoryManager/MemoryManager.s"
+	@echo "... src/Solver/Solver.o"
+	@echo "... src/Solver/Solver.i"
+	@echo "... src/Solver/Solver.s"
 .PHONY : help
 
 
