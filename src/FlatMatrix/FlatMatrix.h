@@ -17,8 +17,8 @@ class FlatMatrix {
     FlatMatrix& operator=(FlatMatrix&& other) noexcept = default;
     ~FlatMatrix() = default;
 
-    double& operator()(size_t i, size_t j) {return data[i * m + j];};
-    double operator()(size_t i, size_t j) const {return data[i * m + j];};
+    double& operator()(size_t i, size_t j) {return data[i * n + j];};
+    double operator()(size_t i, size_t j) const {return data[i * n + j];};
 
     size_t rows() const { return m;};
     size_t cols() const { return n;};
